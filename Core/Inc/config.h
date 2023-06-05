@@ -15,10 +15,10 @@ define PH_CURRENT_MAX_NORMAL 15000
 define PH_CURRENT_MAX_SPORT 25000
 
 // motor current limit for regen in mA
-#define REGEN_MAX_CURRENT 20000
+define REGEN_MAX_CURRENT 20000
 
 // maximum current for field weakening in mA
-#define FIELD_WEAKNING_CURRENT_MAX 0 //max id
+define FIELD_WEAKNING_CURRENT_MAX 1000 //max id
 
 // ADC channels
 #define ADC_VOLTAGE 0
